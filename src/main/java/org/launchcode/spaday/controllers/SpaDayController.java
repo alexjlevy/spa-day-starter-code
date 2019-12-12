@@ -60,6 +60,7 @@ public class SpaDayController {
                 "<select name = 'manipedi'>" +
                 "<option value = 'Manicure'>Manicure</option>" +
                 "<option value = 'Pedicure'>Pedicure</option>" +
+                "<option value = 'Both'>Both</option>" +
                 "</select><br>" +
                 "<input type = 'submit' value = 'Submit'>" +
                 "</form>";

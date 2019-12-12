@@ -33,6 +33,11 @@
     <h3>Pedicure</h3>
     <p th:replace = "fragments :: pedicureDescription"></p>
 </div>
+<div th:if="${manipedi == 'Both'}">
+    <h3>Los Dos!</h3>
+    <p th:replace = "fragments :: manicureDescription"></p>
+    <p th:replace = "fragments :: pedicureDescription"></p>
+</div>
 </div>
 </body>
 </html>
